@@ -62,7 +62,7 @@
 	</head>
 	<body bgcolor="#FFFFFF">
 		<table align="center" class="eGovTblContent" bgColor="#efefef" border="1" borderColorDark="#ffffff" borderColorLight="#aaaaaa" cellPadding="3" cellSpacing="0" width="755"  summary>
-			<tbody>
+			<tbody>c
 				<tr align="center">
 					<td  bgColor="#EFEFEF" colspan="2" align="center" height="200">
 						<!-- <span class="DataLabelText"><bean:message key="noaccess"/>-->

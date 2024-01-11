@@ -56,8 +56,10 @@
 		
 	</div>
 	<div class="form-group">
+	
 		<c:choose>
 			<c:when test="${!billNumberGenerationAuto}">
+			
 				<label class="col-sm-3 control-label text-right"><spring:message code="lbl.billnumber" text="Bill Number"/>
 					<span class="mandatory"></span>
 				</label>
@@ -75,6 +77,7 @@
 				</div>
 			</c:when>
 			<c:otherwise>
+			
 				<label class="col-sm-3 control-label text-right"><spring:message code="lbl.billdate"  text="Bill Date"/>
 				<span class="mandatory"></span>
 				</label>
@@ -88,10 +91,10 @@
 			</c:otherwise>
 		</c:choose>
 		
-	</div>
+	</div> 
 	
 	
-	<jsp:include page="expense-trans-filter.jsp"/>
+	 <jsp:include page="expense-trans-filter.jsp"/> 
 	
 	<div class="form-group">
 		<label class="col-sm-3 control-label text-right">

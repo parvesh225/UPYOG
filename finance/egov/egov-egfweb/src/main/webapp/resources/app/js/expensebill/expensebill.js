@@ -77,7 +77,7 @@ $(document).ready(function(){
 	patternvalidation(); 
 	debitGlcode_initialize();
 	creditGlcode_initialize();
-	$('#fund').val($('#fund').val());
+	 $('#fund').val($('#fund').val()); 
 	loadCheckListTable();
 	if($("#mode").val() == 'edit'){
 		netpayableamount = $("#netPayableAmount").val();
@@ -380,6 +380,7 @@ $('#subLedgerType').change(function () {
 			async : true
 		}).done(
 				function(response) {
+					
 					$('#netPayableAccountCode').empty();
 					$('#netPayableAccountCode').append($("<option value=''>Select from below</option>"));
 					var responseObj = JSON.parse(response);
